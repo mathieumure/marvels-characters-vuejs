@@ -1,28 +1,32 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
+    <nav>
+      <div class="nav-wrapper black">
+        <img src="./assets/logo.png" class="responsive-img brand-logo">
+      </div>
+    </nav>
+    <div class="container">
+      <characters></characters>
+    </div>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
+import Characters from './components/Characters'
 
 export default {
   name: 'app',
   components: {
-    Hello
+    Characters
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  html, #app {
+    background-color: #eeeeee;
+  }
+  nav .brand-logo {
+    height: 100%;
+  }
 </style>
