@@ -2,6 +2,8 @@
 
 This application aims to collect marvel's characters through their API.
 
+[Show this website in action](https://mathieumure.github.io/)
+
 ## Frameworks
 
 This application is based on the following frameworks:
